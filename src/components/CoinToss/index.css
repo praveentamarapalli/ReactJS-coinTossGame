@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  color: #a35200;
+  padding-top: 30px;
+}
+
+.guess-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  color: #334155;
+}
+
+.coin-img {
+  width: 150px;
+  height: 150px;
+}
+
+.toss-button {
+  height: 36px;
+  width: 100px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #334155;
+  background-color: #e2a139;
+  border-radius: 20px;
+  border: none;
+  margin-top: 30px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.result {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  color: #475569;
+  padding-top: 30px;
+  margin: 10px;
+}
